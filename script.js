@@ -16,6 +16,7 @@ function go() {
     .then((html) => {
       game.document.write(html);
       game.document.title = "Math";
+      game.document.close();
     });
 }
 
